@@ -1,0 +1,106 @@
+
+*{
+    transition: all 0.3s;
+  }
+
+  
+  body {
+    
+    
+   background: url("fondo.png");
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 98vw;
+    height: 97vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:black∫;
+    
+  }
+
+  .contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+h1{
+  font-family: 'Encode Sans SC', sans-serif;
+  position: absolute;
+width: 835px;
+height: 179px;
+left: 302px;
+top: 50px;
+font-size: 50px;
+line-height: 79px;
+text-align: center;
+}
+
+.instruccion{
+  font-family: 'Encode Sans SC', sans-serif;
+  width: 1043px;
+height: 169px;
+left: 193px;
+top: 132px;
+font-size: 30px;
+line-height: 79px;
+text-align: center;
+
+}
+
+
+.encima{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 250px;
+    font-size: 120%;
+    font-family: 'Orbitron', sans-serif;
+    background: #000080;
+    color: white;
+    text-align: center;
+}
+
+ 
+
+  .imgn{
+    
+    background-size: 100%;
+    image-rendering: pixelated;
+    object-fit: contain;
+    position: absolute;
+    width: 505px;
+    height: 299px;
+    left: 467px;
+    top: 301px;
+
+
+    display: flex;
+    border-radius: 23px;
+    justify-content: center;
+
+    
+    
+    
+  }
+  
+  .btn {
+      bottom: 600px;
+      position: absolute;
+      width: 168px;
+      height: 55px;
+      left: 804px;
+      top: 644px;
+      background: #3847A1;
+      border-radius: 10px;
+      color: white;
+  }
+
+  .Mensaje{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 200%;
+    }

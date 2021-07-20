@@ -2,12 +2,59 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Validador de Tarjeta</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@900&display=swap" rel="stylesheet">
+
+
+
+
   </head>
   <body>
-    <header></header>
+    <header></header> <br><br>
     <main></main>
+    
+<h1>VALIDADOR DE TARJETAS</h1>
+    <div id="div1" style="display: block;">
+    <p id="instrucciones" class="instruccion">Ingresa el número de Tarjeta</p>
+     <div class="Contenedor" > 
+      <div class="imgn" style="background-image: url(Creditcardblue.png)"></div>
+       
+     <div class="encima"><input class="encima" type="text" id="numTarjeta" required placeholder="Número de Tarjeta" 
+      size="20" maxlength="16">  </div>
+    
+
+  </div>
+    <button  class="btn" style="display: block;" id="btnValidar" ><strong>Validar</strong></button>
+    </div>
+  
+
+  
+
+    
+      <p class="Mensaje" id="message" style="display: block;" ></p>
+      <p class="Mensaje" id="hiden" style="display: block;"></p>
+      <p class="Mensaje" id="mostrarM" style="display: block;"></p>
+      <button class="btn" style="display: none;" id="btnRegresar"> <strong>Intentar de nuevo</strong></button>
+    
+
+
+    
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
